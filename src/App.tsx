@@ -1,4 +1,3 @@
-import "./assets/styles/main.scss";
 import { data } from "./data";
 
 function App() {
