@@ -1,7 +1,7 @@
 import { data } from "./data";
 
 function App() {
-  const baseAudioURL = "src/assets/audios";
+  const baseAudioURL = "audios";
   return (
     <div className="App">
       {data.map((d) => (
