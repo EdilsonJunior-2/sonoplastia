@@ -1,0 +1,25 @@
+.button-primary{
+    background-color: $colorPrimary;
+    border: 1px solid $colorPrimary;
+    color: $white;
+    transition: 0.5s;
+    cursor: pointer;
+    &:hover{
+        background-color: $colorPrimaryStrong;
+        border-color: $colorPrimaryStrong;
+    }
+
+    &.outlined{
+        background-color: transparent;
+        color: $colorPrimary;
+
+        &:hover{
+            color: $colorPrimaryStrong;
+            border-color: $colorPrimaryStrong;
+        }
+    }
+
+    &.small-rounded{
+        border-radius: 4px;
+    }
+}
